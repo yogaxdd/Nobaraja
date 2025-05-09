@@ -9,7 +9,8 @@
       { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "public": true,
-    "buildCommand": "npm run build",    
+    "installCommand": "composer install --no-dev --optimize-autoloader && npm install",
+    "buildCommand": "npm run build",
     "outputDirectory": "public",
     "env": {
       "APP_ENV": "production",
@@ -30,6 +31,6 @@
       "DB_PORT": "61002",
       "DB_DATABASE": "Nobaraja_givingheld",
       "DB_USERNAME": "Nobaraja_givingheld",
-      "DB_PASSWORD": "YOUR_DB_PASSWORD"
+      "DB_PASSWORD": "Nobar.Aja123"
     }
-}
+  }
